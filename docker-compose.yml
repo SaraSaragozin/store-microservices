@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  user-service:
+    image: sarasaragozin/user-service:latest
+    ports:
+      - "8081:3000"
+
+  product-service:
+    image: sarasaragozin/product-service:latest
+    ports:
+      - "8082:3001"
+  order-service:
+    image: sarasaragozin/order-service:latest
+    ports:
+      - "8083:3002"
