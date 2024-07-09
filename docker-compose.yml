@@ -12,4 +12,4 @@ services:
   order-service:
     image: sarasaragozin/order-service:latest
     ports:
-      - "8083:3002"
+      - "8083:3002" 
